@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="food_drink_business_name">
+        <item>Atlantis Steakhouse</item>
+        <item>Sky Terrace Sushi Bar</item>
+        <item>The Grand Buffet</item>
+    </string-array>
+
+    <string-array name="food_drink_business_phone_number">
+        <item>7758244430</item>
+        <item>7758244434</item>
+        <item>7757892000</item>
+    </string-array>
+
+    <string-array name="food_drink_business_address">
+        <item>3800 South Virginia Street, Reno, NV 89502</item>
+        <item>3800 South Virginia Street, Reno, NV 89502</item>
+        <item>2500 East 2nd Street, Reno, NV 89502</item>
+    </string-array>
+
+    <string-array name="food_drink_business_address_geo">
+        <item>39.4887853,-119.7939481</item>
+        <item>39.4887853,-119.7939481</item>
+        <item>39.523354,-119.7813853</item>
+    </string-array>
+
+    <string-array name="food_drink_business_website">
+        <item>https://www.atlantiscasino.com/reno-restaurants/atlantis-seafood-steak-house/</item>
+        <item>https://www.atlantiscasino.com/reno-restaurants/atlantis-sushi-bar</item>
+        <item>https://www.grandsierraresort.com/dining-and-lounges/the-grand-buffet</item>
+    </string-array>
+
+    <string-array name="food_drink_business_description">
+        <item>Atlantis Steakhouse is proud to be the
+            recipient of the AAA Four Diamond award. Only 2.6% of the 29,000 restaurants across the
+            United States, Canada, Mexico and the Caribbean rated by AAA receive this prestigious
+            designation.
+            \n\nRecently voted Best Overall Steakhouse in the Reno – Tahoe area by OpenTable diners.
+            \n\nCapturing the cosmopolitan essence of Chicago to San Francisco, the Atlantis Steakhouse
+            is impeccably styled with a design that melds contemporary elegance with classic comfort.
+            \n\nAtlantis proudly serves Allen Brothers of Chicago meats, the nation’s finest steaks.
+            These wet-aged USDA prime cuts are the ultimate grade of beef, chosen for their superb
+            quality, marbling and flavor. Experience the art of traditional Steakhouse table side dining,
+            unsurpassed service and unmatched attention to detail. Glowing honey onyx exudes warmth and
+            the plush dining settees create a dining ambiance second to none. Classic cocktails,
+            metropolitan martinis and over 336 selections of wine complete your experience. Exclusive
+            private dining for groups of 15 to 50 may be arranged.</item>
+        <item>Enjoy delicious all-you-care-to-eat sushi on the scenic Sky Terrace.
+            \n\nFeaturing a selection of over 50 types of nigiri and maki sushi, our Sushi Bar offers
+            an entertaining and unique dining experience. Complement your choices with any one of
+            eight brands of premium sake, plum wines or an assortment of domestic and imported beers.
+            \n\nWhether it\'s lunch or dinner, our Sushi Bar offers the perfect ambiance for any kind
+            of occasion. Located adjacent to the Oyster Bar on the non-smoking, scenic Sky Terrace.</item>
+        <item>" "</item>
+    </string-array>
+
+    <integer-array name="food_drink_business_image">
+        <item>@drawable/atlantis_logo_color</item>
+        <item>@drawable/atlantis_logo_color</item>
+        <item>@drawable/atlantis_logo_color</item>
+    </integer-array>
+</resources>

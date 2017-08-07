@@ -1,0 +1,10 @@
+<resources>
+    <string name="app_name">Reno</string>
+
+    <string name="page_home">Home</string>
+    <string name="page_events">Events</string>
+    <string name="page_food_and_drinks">Food &#38; Drinks</string>
+    <string name="page_shopping">Shopping</string>
+    <string name="page_outdoor_activities">Outdoor Activities</string>
+    <string name="page_nightlife">Nightlife</string>
+</resources>
