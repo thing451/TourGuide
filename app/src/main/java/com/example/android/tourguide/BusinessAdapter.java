@@ -38,21 +38,26 @@ public class BusinessAdapter extends ArrayAdapter<Business> {
         ((TextView) listItemView.findViewById(R.id.business_name))
                 .setText(currentBusiness.getBusinessName());
 
-        String phoneNumber = PhoneNumberUtils.formatNumber(currentBusiness.getPhoneNumber(), Locale.getDefault().getCountry());
-        ((TextView) listItemView.findViewById(R.id.business_phone_number))
-                .setText(phoneNumber);
-
         LinearLayout llPhoneNumber = listItemView.findViewById(R.id.phone_text_container);
-        llPhoneNumber.setClickable(true);
-        llPhoneNumber.setOnClickListener(new View.OnClickListener() {
-            @Override
-            public void onClick(View view) {
-                String phoneNumber = "tel:" + currentBusiness.getPhoneNumber();
-                Intent intent = new Intent(Intent.ACTION_DIAL);
-                intent.setData(Uri.parse(phoneNumber));
-                getContext().startActivity(intent);
-            }
-        });
+        String noNumber = "NA";
+        if (currentBusiness.getPhoneNumber().equalsIgnoreCase(noNumber)) {
+            llPhoneNumber.setVisibility(View.GONE);
+        } else {
+            String phoneNumber = PhoneNumberUtils.formatNumber(currentBusiness.getPhoneNumber(),
+                    Locale.getDefault().getCountry());
+            ((TextView) listItemView.findViewById(R.id.business_phone_number))
+                    .setText(phoneNumber);
+            llPhoneNumber.setClickable(true);
+            llPhoneNumber.setOnClickListener(new View.OnClickListener() {
+                @Override
+                public void onClick(View view) {
+                    String phoneNumber = "tel:" + currentBusiness.getPhoneNumber();
+                    Intent intent = new Intent(Intent.ACTION_DIAL);
+                    intent.setData(Uri.parse(phoneNumber));
+                    getContext().startActivity(intent);
+                }
+            });
+        }
 
         ((TextView) listItemView.findViewById(R.id.business_address))
                 .setText(currentBusiness.getAddress());
@@ -61,15 +66,13 @@ public class BusinessAdapter extends ArrayAdapter<Business> {
         llAddress.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-                String address = "geo:" + currentBusiness.getGeoLocation() + "?z=" + ZOOMLEVEL;
+                String geoLocation = "geo:" + currentBusiness.getGeoLocation() + "?z=" + ZOOMLEVEL;
                 Intent intent = new Intent(Intent.ACTION_VIEW);
-                intent.setData(Uri.parse(address));
+                intent.setData(Uri.parse(geoLocation));
                 getContext().startActivity(intent);
             }
         });
 
-        ((TextView) listItemView.findViewById(R.id.business_website))
-                .setText(currentBusiness.getWebsite());
         LinearLayout llWebsite = listItemView.findViewById(R.id.website_text_container);
         llWebsite.setClickable(true);
         llWebsite.setOnClickListener(new View.OnClickListener() {

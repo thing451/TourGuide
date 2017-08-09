@@ -5,13 +5,23 @@ public class Business {
     private String mBusinessName, mPhoneNumber, mAddress, mWebsite, mDescription, mGeoLocation;
     private int mImageResourceId;
 
-    public Business(String businessName, String phoneNumber, String address,
-                    String website, String description, int imageResourceId, String geoLocation) {
+    public Business(String businessName, String phoneNumber, String address, String website,
+                    String description, int imageResourceId, String geoLocation) {
         mBusinessName = businessName;
         mPhoneNumber = phoneNumber;
         mAddress = address;
         mWebsite = website;
         mDescription = description;
+        mImageResourceId = imageResourceId;
+        mGeoLocation = geoLocation;
+    }
+
+    public Business(String businessName, String phoneNumber, String address, String website,
+                    int imageResourceId, String geoLocation) {
+        mBusinessName = businessName;
+        mPhoneNumber = phoneNumber;
+        mAddress = address;
+        mWebsite = website;
         mImageResourceId = imageResourceId;
         mGeoLocation = geoLocation;
     }

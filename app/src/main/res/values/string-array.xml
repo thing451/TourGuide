@@ -4,30 +4,35 @@
         <item>Atlantis Steakhouse</item>
         <item>Sky Terrace Sushi Bar</item>
         <item>The Grand Buffet</item>
+        <item>Silver Peak on the River</item>
     </string-array>
 
     <string-array name="food_drink_business_phone_number">
         <item>7758244430</item>
         <item>7758244434</item>
         <item>7757892000</item>
+        <item>7752843300</item>
     </string-array>
 
     <string-array name="food_drink_business_address">
         <item>3800 South Virginia Street, Reno, NV 89502</item>
         <item>3800 South Virginia Street, Reno, NV 89502</item>
         <item>2500 East 2nd Street, Reno, NV 89502</item>
+        <item>135 North Sierra Street, Reno, NV 89501</item>
     </string-array>
 
     <string-array name="food_drink_business_address_geo">
         <item>39.4887853,-119.7939481</item>
         <item>39.4887853,-119.7939481</item>
         <item>39.523354,-119.7813853</item>
+        <item>39.5257098,-119.8146367</item>
     </string-array>
 
     <string-array name="food_drink_business_website">
         <item>https://www.atlantiscasino.com/reno-restaurants/atlantis-seafood-steak-house/</item>
         <item>https://www.atlantiscasino.com/reno-restaurants/atlantis-sushi-bar</item>
         <item>https://www.grandsierraresort.com/dining-and-lounges/the-grand-buffet</item>
+        <item>http://www.silverpeakbrewery.com/</item>
     </string-array>
 
     <string-array name="food_drink_business_description">
@@ -52,11 +57,91 @@
             \n\nWhether it\'s lunch or dinner, our Sushi Bar offers the perfect ambiance for any kind
             of occasion. Located adjacent to the Oyster Bar on the non-smoking, scenic Sky Terrace.</item>
         <item>" "</item>
+        <item>Silver Peak Brewery is an upscale, modern-version of the classic brewpub, with two prime
+            locations in the Reno area. Their menu includes everything from their own craft beers to
+            specialized dishes like burgers, pastas, steak frites and crawfish jambalaya.</item>
     </string-array>
 
     <integer-array name="food_drink_business_image">
         <item>@drawable/atlantis_logo_color</item>
         <item>@drawable/atlantis_logo_color</item>
+        <item>@drawable/grand_sierra_resort_logo_black</item>
+        <item>@drawable/silver_peak_logo</item>
+    </integer-array>
+    <!--*****************************************************************************************-->
+    <string-array name="shopping_business_name">
+        <item>Meadowood Mall</item>
+        <item>MidTown District</item>
+        <item>Outlets at Sparks</item>
+        <item>RiverWalk District</item>
+        <item>The Summit</item>
+    </string-array>
+
+    <string-array name="shopping_business_phone_number">
+        <item>7758278450</item>
+        <item>NA</item>
+        <item>7753583800</item>
+        <item>7758259255</item>
+        <item>7758537800</item>
+    </string-array>
+
+    <string-array name="shopping_business_address">
+        <item>5000 Meadowood Mall Cir, Reno, NV 89502</item>
+        <item>805 South Virginia St, Box 210, Reno, NV 89502</item>
+        <item>1310 Scheels Drive, Sparks NV 89434</item>
+        <item>P.O. Box 1606, Reno, NV 89505</item>
+        <item>13925 S Virginia St, Suite 212, Reno, NV 89511</item>
+    </string-array>
+
+    <string-array name="shopping_business_address_geo">
+        <item>39.473876,-119.7828682</item>
+        <item>39.5177447,-119.8090539</item>
+        <item>39.5313132,-119.7210068</item>
+        <item>39.5257701,-119.8154218</item>
+        <item>39.4039208,-119.7504795</item>
+    </string-array>
+
+    <string-array name="shopping_business_website">
+        <item>http://www.simon.com/mall/meadowood-mall</item>
+        <item>http://www.renomidtowndistrict.com/shopping-index/#shopping-main</item>
+        <item>http://www.outletsatsparks.com/</item>
+        <item>http://renoriver.org/</item>
+        <item>http://thesummitreno.com/</item>
+    </string-array>
+
+    <string-array name="shopping_business_image">
         <item>@drawable/atlantis_logo_color</item>
+        <item>@drawable/atlantis_logo_color</item>
+        <item>@drawable/atlantis_logo_color</item>
+        <item>@drawable/atlantis_logo_color</item>
+        <item>@drawable/atlantis_logo_color</item>
+    </string-array>
+    <!--*****************************************************************************************-->
+    <string-array name="outdoor_name">
+        <item>Biking</item>
+        <item>Hiking</item>
+        <item>Water Activities</item>
+        <item>Rock Climbing</item>
+        <item>Parks</item>
+        <item>Golf</item>
+        <item>Horseback Riding</item>
+        <item>Sports</item>
+        <item>Fishing</item>
+        <item>Off Road</item>
+        <item>Snow Activities</item>
+    </string-array>
+
+    <integer-array name="outdoor_images">
+        <item>@drawable/biking</item>
+        <item>@drawable/hiking</item>
+        <item>@drawable/water_activities</item>
+        <item>@drawable/rock_climbing</item>
+        <item>@drawable/parks</item>
+        <item>@drawable/golf</item>
+        <item>@drawable/horseback_riding</item>
+        <item>@drawable/sports</item>
+        <item>@drawable/fishing</item>
+        <item>@drawable/off_road</item>
+        <item>@drawable/snow_activities</item>
     </integer-array>
 </resources>

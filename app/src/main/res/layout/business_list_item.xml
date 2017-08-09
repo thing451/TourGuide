@@ -10,8 +10,7 @@
         android:id="@+id/business_image"
         android:layout_width="64dp"
         android:layout_height="64dp"
-        android:layout_centerVertical="true"
-        android:background="@color/colorAccent" />
+        android:layout_centerVertical="true" />
 
     <LinearLayout
         android:layout_width="match_parent"
@@ -55,6 +54,8 @@
                 tools:text="(555) 555-5555" />
         </LinearLayout>
 
+        <View style="@style/line_view" />
+
         <LinearLayout
             android:id="@+id/address_text_container"
             android:layout_width="match_parent"
@@ -70,13 +71,16 @@
 
             <TextView
                 android:id="@+id/business_address"
-                android:layout_width="match_parent"
+                android:layout_width="0dp"
                 android:layout_height="wrap_content"
+                android:layout_weight="1"
                 android:gravity="center_vertical"
                 android:textColor="@android:color/black"
                 android:textSize="12sp"
-                tools:text="(555) 555-5555" />
+                tools:text="Address" />
         </LinearLayout>
+
+        <View style="@style/line_view" />
 
         <LinearLayout
             android:id="@+id/website_text_container"
@@ -95,9 +99,10 @@
                 android:id="@+id/business_website"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:text="Website"
+                android:text="@string/website"
                 android:textColor="@android:color/black"
-                android:textSize="12sp" />
+                android:textSize="12sp"
+                tools:text="Website"/>
         </LinearLayout>
 
 

@@ -19,7 +19,7 @@ public class FoodandDrinkFragment extends Fragment {
     @Override
     public View onCreateView(LayoutInflater inflater, ViewGroup container,
                              Bundle savedInstanceState) {
-        View rootView = inflater.inflate(R.layout.business_list, container, false);
+        View rootView = inflater.inflate(R.layout.list, container, false);
 
         String[] businessName = getResources().getStringArray(R.array.food_drink_business_name);
         String[] phoneNumber = getResources().getStringArray(R.array.food_drink_business_phone_number);
@@ -44,5 +44,4 @@ public class FoodandDrinkFragment extends Fragment {
 
         return rootView;
     }
-
 }

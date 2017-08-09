@@ -7,4 +7,9 @@
     <string name="page_shopping">Shopping</string>
     <string name="page_outdoor_activities">Outdoor Activities</string>
     <string name="page_nightlife">Nightlife</string>
+
+
+    <string name="website">Website</string>
+    <string name="map">Map</string>
+    <string name="directions">Directions</string>
 </resources>

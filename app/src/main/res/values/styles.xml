@@ -10,11 +10,18 @@
 
     <style name="CategoryTab" parent="Widget.Design.TabLayout">
         <item name="tabIndicatorColor">@android:color/white</item>
+        <item name="tabBackground">@color/colorPrimary</item>
         <item name="tabSelectedTextColor">@android:color/black</item>
         <item name="tabTextAppearance">@style/CategoryTabTextAppearance</item>
     </style>
 
     <style name="CategoryTabTextAppearance" parent="TextAppearance.Design.Tab">
         <item name="android:textColor">#A8A19E</item>
+    </style>
+
+    <style name="line_view">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">1dp</item>
+        <item name="android:background">@drawable/gradient</item>
     </style>
 </resources>
