@@ -2,34 +2,37 @@
 <RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
-    android:layout_height="@dimen/list_item_height"
+    android:layout_height="wrap_content"
     android:minHeight="@dimen/list_item_height"
     android:padding="8dp">
+
+    <TextView
+        android:id="@+id/business_name"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center_horizontal"
+        android:textAppearance="?android:textAppearanceMedium"
+        android:textColor="@android:color/black"
+        android:textStyle="bold"
+        tools:text="Business Name" />
 
     <ImageView
         android:id="@+id/business_image"
         android:layout_width="64dp"
         android:layout_height="64dp"
+        android:layout_below="@+id/business_name"
         android:layout_centerVertical="true" />
 
     <LinearLayout
+        android:id="@+id/business_details"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_alignParentRight="true"
-        android:layout_alignParentTop="true"
+        android:layout_below="@id/business_name"
         android:layout_toRightOf="@+id/business_image"
         android:gravity="top"
         android:orientation="vertical"
         android:paddingLeft="16dp">
-
-        <TextView
-            android:id="@+id/business_name"
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:textAppearance="?android:textAppearanceMedium"
-            android:textColor="@android:color/black"
-            android:textStyle="bold"
-            tools:text="Business Name" />
 
         <LinearLayout
             android:id="@+id/phone_text_container"
@@ -54,7 +57,9 @@
                 tools:text="(555) 555-5555" />
         </LinearLayout>
 
-        <View style="@style/line_view" />
+        <View
+            android:id="@+id/bar_one"
+            style="@style/line_view" />
 
         <LinearLayout
             android:id="@+id/address_text_container"
@@ -80,7 +85,9 @@
                 tools:text="Address" />
         </LinearLayout>
 
-        <View style="@style/line_view" />
+        <View
+            android:id="@+id/bar_two"
+            style="@style/line_view" />
 
         <LinearLayout
             android:id="@+id/website_text_container"
@@ -102,9 +109,23 @@
                 android:text="@string/website"
                 android:textColor="@android:color/black"
                 android:textSize="12sp"
-                tools:text="Website"/>
+                tools:text="Website" />
         </LinearLayout>
-
-
     </LinearLayout>
+
+    <View
+        android:id="@+id/bar_three"
+        style="@style/line_view"
+        android:layout_below="@+id/business_details"
+        android:layout_margin="8dp" />
+
+    <TextView
+        android:id="@+id/business_description"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/bar_three"
+        android:textColor="@android:color/black"
+        android:textSize="12sp"
+        tools:text="@string/description" />
+
 </RelativeLayout>

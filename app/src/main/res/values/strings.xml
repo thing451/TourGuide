@@ -1,15 +1,44 @@
 <resources>
     <string name="app_name">Reno</string>
 
+    <string name="welcome">Welcome to Reno!</string>
+
     <string name="page_home">Home</string>
-    <string name="page_events">Events</string>
     <string name="page_food_and_drinks">Food &#38; Drinks</string>
     <string name="page_shopping">Shopping</string>
     <string name="page_outdoor_activities">Outdoor Activities</string>
     <string name="page_nightlife">Nightlife</string>
 
-
     <string name="website">Website</string>
     <string name="map">Map</string>
     <string name="directions">Directions</string>
+    <string name="description">Description</string>
+
+    <string name="reno_description">Reno Tahoe isn’t your basic vacation destination. It’s a
+        collision of contrasts. This is where majestic mountains converge on high desert.
+        Where wildlife meets urban grit. You can crowd surf all night and paddleboard all day.
+        Support a start-up and down a craft brew. It’s where you can see, do and be near anything,
+        as long as you’re fueled by ambition. So, what’s first?</string>
+
+    <string name="reno_description2">They say “Don’t bite off more than you can chew.” We say “Stuff
+        your face and ask for more.” See, this place rewards renegades. We don’t have time for
+        wait-for-me’s or tag-alongs. We dig the dreamers. The hustlers. The ones who go for gold on
+        the slopes, in the studio or the middle of Lake Tahoe. We love the smell of fresh ambition
+        in the morning. Don’t you?</string>
+
+    <string name="reno_description3">Home to casinos, the largest outdoor climbing wall, and a ½
+        mile kayak water park. Where the unexpected is expected and tradition is the past.
+        \n\nDowntown Reno is the perfect place to try your luck at gambling or test your strength
+        on the 164 ft. outdoor climbing wall. Take a selfie by the iconic arch and relax by the
+        river. Play ball with the Aces at Greater Nevada Field, or cruise downtown on the Reno Brew
+        Bike. If you fancy yourself a museum, we have you covered. Take your pick between cars,
+        science, or art and let your mind wander. No matter the adventure, Reno Tahoe is here to
+        satisfy that weekend craving.</string>
+
+    <string name="reno_description4">The path to the top is never straight. But the flight to Reno
+        Tahoe? Well, that’s another story. Reno-Tahoe International Airport plays host to more than
+        100 daily flights and just about two dozen nonstops from all over the nation. That means
+        there’s no excuse for excuses.</string>
+
+
 </resources>

@@ -35,33 +35,6 @@
         <item>http://www.silverpeakbrewery.com/</item>
     </string-array>
 
-    <string-array name="food_drink_business_description">
-        <item>Atlantis Steakhouse is proud to be the
-            recipient of the AAA Four Diamond award. Only 2.6% of the 29,000 restaurants across the
-            United States, Canada, Mexico and the Caribbean rated by AAA receive this prestigious
-            designation.
-            \n\nRecently voted Best Overall Steakhouse in the Reno – Tahoe area by OpenTable diners.
-            \n\nCapturing the cosmopolitan essence of Chicago to San Francisco, the Atlantis Steakhouse
-            is impeccably styled with a design that melds contemporary elegance with classic comfort.
-            \n\nAtlantis proudly serves Allen Brothers of Chicago meats, the nation’s finest steaks.
-            These wet-aged USDA prime cuts are the ultimate grade of beef, chosen for their superb
-            quality, marbling and flavor. Experience the art of traditional Steakhouse table side dining,
-            unsurpassed service and unmatched attention to detail. Glowing honey onyx exudes warmth and
-            the plush dining settees create a dining ambiance second to none. Classic cocktails,
-            metropolitan martinis and over 336 selections of wine complete your experience. Exclusive
-            private dining for groups of 15 to 50 may be arranged.</item>
-        <item>Enjoy delicious all-you-care-to-eat sushi on the scenic Sky Terrace.
-            \n\nFeaturing a selection of over 50 types of nigiri and maki sushi, our Sushi Bar offers
-            an entertaining and unique dining experience. Complement your choices with any one of
-            eight brands of premium sake, plum wines or an assortment of domestic and imported beers.
-            \n\nWhether it\'s lunch or dinner, our Sushi Bar offers the perfect ambiance for any kind
-            of occasion. Located adjacent to the Oyster Bar on the non-smoking, scenic Sky Terrace.</item>
-        <item>" "</item>
-        <item>Silver Peak Brewery is an upscale, modern-version of the classic brewpub, with two prime
-            locations in the Reno area. Their menu includes everything from their own craft beers to
-            specialized dishes like burgers, pastas, steak frites and crawfish jambalaya.</item>
-    </string-array>
-
     <integer-array name="food_drink_business_image">
         <item>@drawable/atlantis_logo_color</item>
         <item>@drawable/atlantis_logo_color</item>
@@ -110,38 +83,243 @@
     </string-array>
 
     <string-array name="shopping_business_image">
-        <item>@drawable/atlantis_logo_color</item>
-        <item>@drawable/atlantis_logo_color</item>
-        <item>@drawable/atlantis_logo_color</item>
-        <item>@drawable/atlantis_logo_color</item>
-        <item>@drawable/atlantis_logo_color</item>
+        <item>@drawable/meadowood_logo</item>
+        <item>@drawable/midtown_logo</item>
+        <item>@drawable/outlets_logo</item>
+        <item>@drawable/riverwalk_logo</item>
+        <item>@drawable/summit_logo</item>
     </string-array>
     <!--*****************************************************************************************-->
     <string-array name="outdoor_name">
         <item>Biking</item>
         <item>Hiking</item>
-        <item>Water Activities</item>
-        <item>Rock Climbing</item>
         <item>Parks</item>
         <item>Golf</item>
         <item>Horseback Riding</item>
         <item>Sports</item>
         <item>Fishing</item>
-        <item>Off Road</item>
-        <item>Snow Activities</item>
     </string-array>
 
     <integer-array name="outdoor_images">
         <item>@drawable/biking</item>
         <item>@drawable/hiking</item>
-        <item>@drawable/water_activities</item>
-        <item>@drawable/rock_climbing</item>
         <item>@drawable/parks</item>
         <item>@drawable/golf</item>
         <item>@drawable/horseback_riding</item>
         <item>@drawable/sports</item>
         <item>@drawable/fishing</item>
-        <item>@drawable/off_road</item>
-        <item>@drawable/snow_activities</item>
+    </integer-array>
+
+    <string-array name="outdoor_description">
+        <item>Reno Tahoe is the ideal place for cycling and mountain biking enthusiasts!
+        \n\nCITY CYCLING
+            \n\nThe city is bike friendly with a series of well-marked, connecting bike lanes that
+            rivals or surpasses bike lane route systems in other cities.
+            \n\nThe Truckee River has one of the prettiest paths to bike along. The 12-mile Truckee
+            River Bike Path runs from west of Chrissie Caughlin Park are eastward along the Truckee
+            River through downtown Reno and runs all the way to the very eastern end of the city of
+            Sparks.
+        \n\nMOUNTAIN BIKING
+            \n\nIf you’re looking to get off the beaten path and onto some dirt, there are several
+            mountain biking trails, bikeways and parks available to get your adrenaline rushing.
+            The Peavine Trail is located just north of downtown and offers some insane views of the
+            city and terrain suitable for all levels. Make sure you bring plenty of water because
+            shade is limited on this barren but exhilarating ride. The Tahoe Rim Trail and Flume
+            Trail are both home to world-class mountain biking with everything from epic views on a
+            mellow singletrack to burly climbs and exhilarating descents.
+            \n\nReno Tahoe is also close to top-notch mountain bike parks. During the summer months,
+            ski resorts Northstar and Kirkwood offer lift-accessed trails from beginner to advanced.
+        </item>
+
+        <item>Reno and Tahoe hiking trails incorporate some of the most beautiful scenery in all of
+            northern Nevada with one of the purest forms of exercise.
+            \n\nWith so much terrain, the hardest part is picking which trail to venture onto today.
+            Located within the city limits of Reno, you can take the popular Hunter Creek Trail
+            which will take you to a hidden waterfall. Other popular urban hikes include Huffaker
+            Hills, which will reward you with great views of the city from atop the hills of South
+            Reno or the hike to the ‘N’ located in Rancho San Rafael Regional Park.
+            \n\nAnother popular hiking area is Galena Creek Regional Park, located in South Reno at
+            the base of Mount Rose Highway. Here you can find hikes ranging from under 2 miles, to
+            the epic 9.2 mile Jones Whites Creek Loop.
+            \n\nAnd then you have Lake Tahoe. The Mount Rose Trail is a grueling 9.5 mile round-trip
+            hike with 1,930 ft. in elevation gain, taking you to the peak of Mount Rose at 10,776
+            ft. From the summit, you can see much of the Lake Tahoe Basin and the Truckee Meadows.
+            Take advantage of the rocky wind shelter up top while you savor your well-deserved
+            picnic lunch before making the climb down.  Other popular Tahoe hikes include the Tunnel
+            Creek Trail to Monkey Rock and Spooner Lake to Marlette Lake. If backpacking is more
+            your style, you’re in the right place. Check out the Tahoe Rim Trail or Desolation
+            Wilderness for trail maps and permit guides
+        </item>
+
+        <item>Discover Reno Tahoe’s incredible outdoors and nature. With 300 days of sunshine there
+            is no reason to stay indoors. Our region is full of beautiful natural landscapes,
+            vibrant wildlife and several parks the kiddos can play in!
+            \n\nIf you’re not in the mood to hike the trails of Lake Tahoe, take a stroll through
+            Reno’s Riverwalk district or participate in any other recreational activity Reno Tahoe
+            has to offer, we have parks in our area that will still allow you to enjoy our blue
+            skies, the landscapes of the Sierra Nevada and breath taking sunsets. Don’t miss our on
+            what our beautiful region has to offer by staying indoors.
+            \n\nRancho San Rafael, in Reno is a neighboring park with a great, scenic view of The
+            Biggest Little City. Don’t be fooled by the only areas you can see driving past it.
+            There is plenty to explore, a play area for the kids with slides and jungle gym, a
+            wetland habitat and a designated area for our furry friends to play in!
+            \n\nLake Tahoe Nevada State Park is a major attraction to all lake go-ers. It is popular
+            for picnicking, hiking, mountain biking, catch-and-release fishing and cross-county
+            skiing.
+            \n\nKings Beach, in North Lake Tahoe, offers a playground for the kids. Walk towards the
+            water and you will discover the beach that offers an unbelievable view of the
+            surrounding mountains and lake.
+            \n\nThe Sparks Marina is located off I-80 east to McCarran Blvd. It has two beaches,
+            picnic areas, a fishing pier, a 2-mile walking path, volleyball courts, playgrounds
+            and any other park amenity you will need on a day out at the park. If you stay through
+            the evening you will experience a beautiful Reno Tahoe sunset with capturing clouds
+            and pretty city lights.
+            \n\nGalena Creek Park is popular year-round. In the summer, enjoy hiking in the Sierra
+            along Galena, Jones and White’s Creeks; in the winter, visit the park for sledding and
+            cross-country skiing. Galena Creek flows through the park creating separate north and
+            south portions of the park. Campfire programs, ranger-led hikes, and exhibits in the old
+            stone visitor’s center add to the diversity of the park.
+            \n\nDavis Creek Regional Park offers picnic facilities, and group camping site are
+            available by reservation. An equestrian trailhead provides access to the Toiyabe
+            National Forest. This campground/day use area offers outstanding views of Washoe Lake
+            and Slide Mountain. During the coldest months of winter, the pond freezes and makes a
+            great ice skating area, which is free to the public. This diverse park is a favorite
+            among locals.
+        </item>
+
+        <item>You’ll never play a better game of golf than when you’re in Reno Tahoe. It’s science.
+            At our altitude, golf balls automatically fly 10 percent farther. Your ball will
+            literally slice through our thinner air like a hot knife through butter. And with over
+            50 courses within 90 minutes of Reno, there’s a course for every level of play.
+            \n\nIn Reno, courses include the state’s oldest links — the Washoe County Golf Course,
+            which was established in 1934 – and the newest courses, including ArrowCreek and Red
+            Hawk. We’re even home to Montreux Golf Club, home of the PGA stop Barracuda Championship.
+            \n\nYou’ll also find courses like Wildcreek, LakeRidge and Wolf Run Golf Club in Reno.
+            Carson City, our state capital and just a 30-minute drive south, offers the Divine Nine
+            courses, totaling about 70,000 yards of greens and roughs, including Dayton Valley
+            Country Club, Empire Ranch, and the Golf Club at Genoa Lakes.
+            \n\nLake Tahoe is a 60-minute drive up winding mountains and offers a dozen championship
+            courses, including Edgewood Tahoe, where the star-sutdded American Century Championship
+            is held in July. Edgewood is rated one of Golf Digest’s top 25 public U.S. golf courses.
+            \n\nSo you’d rather be a spectator? Well, Reno Tahoe also has popular events that
+            attract visitors, locals and golf professionals each year.
+            \n\nTaking place in late July/early August is the Barracuda Championship PGA Tour Golf
+            Tournament. This game is played in a unique format, which encourages the players to
+            shoot for the pin creating more excitement for spectators. Watch some of the worlds best
+            golfers as they compete for a $3.3 million purse and 300 FedExCup points.
+            \n\nThe American Century Celebrity Golf Tournament is one of the most anticipated
+            golfing events in Reno Tahoe. It has helped raise millions of dollars to help support
+            local and national charities and organizations. This tournament hosts chart-topping
+            actors, singers and professional sports stars as the compete in a 54-hole modified
+            Stableford format while the public gets in on all the action!
+        </item>
+
+        <item>Our region offers horseback expeditions year-round. We welcome all levels and types of
+            riders and for those who are new to horseback riding there are clinics at most of our
+            local equestrian centers. We have hundreds of thousands of acres of public lands begging
+            to be explored making the riding opportunities in Reno Tahoe an excellent destination
+            for the equine enthusiasts.
+            \n\nHere, riders can ride through trails, hidden passages or surrounding alpine. Some
+            rider may choose to ride on their own and make their own back. Other riders can hire a
+            guide such as Sierra Adventures or Piping Rock Horses and ride the desert wilderness for
+            a multi-day trip around the guide’s chosen area. Being at such close proximity to Lake
+            Tahoe,  soak up the sun and take a dip in the pristine water and late afternoon begin
+            your horseback expedition and watch the cotton candy sky turn into night in Reno. Daily
+            itineraries are diverse and endless in Reno Tahoe!
+        </item>
+
+        <item>RENO ACES
+            \n\nThe Reno Aces are a Minor League Baseball franchise; the team is a member of the
+            Pacific Coast League and is the Triple-A affiliate of the Arizona Diamondbacks. Owned by
+            SK Baseball, the Aces are a part of the Pacific Conference’s North Division along with
+            the Colorado Springs Sky Sox, Salt Lake Bees, and Tacoma Rainiers. Greater Nevada Field,
+            a 9,100-capacity venue constructed for the team, opened in Spring 2009 in the heart of
+            downtown Reno. The stadium is part of the Freight House District, an exciting year-round
+            entertainment complex that offers unparalleled retail, dining and nightlife options.
+        \n\nRENO BIGHORNS
+            \n\nThe Reno Bighorns are an NBA G League team owned and operated by the Sacramento
+            Kings. The team plays at the Reno Events Center in the heart of downtown Reno, from late
+            November through early April. Tickets can be purchased online through ticket master or
+            at the Silver Legacy Box office.
+        \n\nRENO 1868 FC
+            \n\nThe Reno 1868 FC is a United Soccer League team affiliated with Major League
+            Soccer’s San Jose Earthquakes. The team’s inaugural season is in full effect at Greater
+            Nevada Field, located in downtown Reno. The USL regular season spans from March to
+            September, with playoff games in October.
+        \n\nNEVADA WOLF PACK
+            \n\nThe University of Nevada, Reno has a long and storied athletics tradition. Often
+            known as UNR within the state, the school goes by the Nevada Wolf Pack for athletics.
+            They are a Division I (FBS for football) collegiate program and compete in the Mountain
+            West Conference. Visit the University’s Athletic site to learn more about the Wolf Pack.
+        </item>
+
+        <item>With so much water around, it’s no wonder Reno Tahoe is a premier fishing destination!
+            \n\nPyramid Lake, located on a Paiute Indian Reservation 45 minutes north of Reno, is
+            the end point of the Truckee River. Widely acclaimed as North America’s most beautiful
+            desert lake, it was the world class fishery that brought Pyramid Lake to fame. You can
+            catch Cui-ui which is endemic to the lake or the famous Lohanton Cutthroat. The trout
+            have grown to record sizes and attract fisherman from around the world. For more
+            information on fishing permits and fishing conditions at the lake, please visit their
+            website.
+            \n\nFishing the Truckee is another popular spot for anglers. The Truckee River offers
+            some of the best water in the west – including a fly-fishing only, catch-and-release
+            section – easily accessible from the Interstate 80 corridor through downtown Reno. With
+            so many excellent places to fish, we want to link you out to a few resources to help
+            aide your decision.
+            \n\nReno Fly Shop– A locally owned and operated downtown fishing shop, their website
+            will list some local waters and they often release a fishing report.
+            \n\nNevada Department of Wildlife– As your go-to source for all hunting, fishing, and
+            wildlife in Nevada, this is a great resource to use when looking up permit options and
+            regulations or researching both urban ponds or remote and beautiful fishing holes.
+        </item>
+    </string-array>
+
+    <string-array name="nightlife_name">
+        <item>EDGE Nightclub</item>
+        <item>LEX Nightclub</item>
+        <item>Brew Brothers</item>
+        <item>Novi Lounge</item>
+    </string-array>
+
+    <string-array name="nightlife_address">
+        <item>2707 South Virginia Street, Reno, NV 89502</item>
+        <item>2500 East 2nd Street, Reno, Nevada 89595</item>
+        <item>345 North Virginia Street, Reno, NV 89501</item>
+        <item>345 North Virginia Street, Reno, NV 89501</item>
+    </string-array>
+
+    <string-array name="nightlife_address_geo">
+        <item>39.4968587,-119.8009559</item>
+        <item>39.5232284,-119.7791997</item>
+        <item>39.5291693,-119.8146801</item>
+        <item>39.5291693,-119.8146801</item>
+    </string-array>
+
+    <string-array name="nightlife_description">
+        <item>Located in the Peppermill Reno, EDGE Nightclub celebrates the art of nightlife by staying true to authentic DJ culture, choreographed dance vignettes, and music and turntablism. Come and see this high energy, award-winning nightclub for yourself.</item>
+        <item>An unprecedented nightlife venue, LEX Nightclub, located in the Grand Sierra Resort, is the premier nightclub in northern Nevada. At an impressive 25,000 sq. ft., LEX features three full bars, 33 VIP tables and a bevy of deluxe amenities to create the experience of a lifetime.</item>
+        <item>Restaurant by day, nightclub by night, Brew Brothers, located in the Eldorado Resort, offers eight custom microbrews, live music, and DJs nightly. You can enjoy weekly specials such as All-You-Can-Drink Brew Brother’s Beer, and ladies, first drink is free Sunday-Friday before 11 pm.</item>
+        <item>The perfect place to get your country on is Novi Lounge located in the Eldorado Resort. Join Novi for All Jacked Up Saturdays and Line Dancing lessons from 9pm-12am. From Country Rock, Pop Rock, Top 40, Blues to Comedy, the excitement and energy of live music is on full display.</item>
+    </string-array>
+
+    <string-array name="nightlife_phone_number">
+        <item>18668219996</item>
+        <item>7757895399</item>
+        <item>7757865700</item>
+        <item>7757865700</item>
+    </string-array>
+
+    <string-array name="nightlife_website">
+        <item>https://www.peppermillreno.com/nightlife/edge/</item>
+        <item>http://www.lexnightclub.com/</item>
+        <item>https://www.eldoradoreno.com/venue/nightclubs/brew-brothers-nightlife</item>
+        <item>https://www.eldoradoreno.com/venue/nightclubs/novi</item>
+    </string-array>
+
+    <integer-array name="nightlife_image">
+        <item>@drawable/edge_logo</item>
+        <item>@drawable/lex_logo</item>
+        <item>@drawable/brew_logo</item>
+        <item>@drawable/novi_logo</item>
     </integer-array>
 </resources>

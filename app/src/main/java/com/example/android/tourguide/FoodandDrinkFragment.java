@@ -25,7 +25,6 @@ public class FoodandDrinkFragment extends Fragment {
         String[] phoneNumber = getResources().getStringArray(R.array.food_drink_business_phone_number);
         String[] address = getResources().getStringArray(R.array.food_drink_business_address);
         String[] website = getResources().getStringArray(R.array.food_drink_business_website);
-        String[] description = getResources().getStringArray(R.array.food_drink_business_description);
         TypedArray businessImage = getResources().obtainTypedArray(R.array.food_drink_business_image);
         String[] geoLocation = getResources().getStringArray(R.array.food_drink_business_address_geo);
 
@@ -33,7 +32,7 @@ public class FoodandDrinkFragment extends Fragment {
         final ArrayList<Business> businesses = new ArrayList<>();
         for (int i = 0; i < businessName.length; i++) {
             businesses.add(new Business(businessName[i], phoneNumber[i], address[i],
-                    website[i], description[i], businessImage.getResourceId(i, -1),geoLocation[i]));
+                    website[i],businessImage.getResourceId(i, -1),geoLocation[i]));
         }
 
         BusinessAdapter adapter = new BusinessAdapter(getActivity(), businesses);

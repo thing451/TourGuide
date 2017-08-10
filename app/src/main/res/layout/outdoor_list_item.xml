@@ -3,15 +3,15 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:id="@+id/outdoor_list"
     android:layout_width="match_parent"
-    android:layout_height="@dimen/list_item_height"
-    android:orientation="vertical">
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:padding="16dp">
 
     <ImageView
         android:id="@+id/outdoor_image"
         android:layout_width="match_parent"
-        android:layout_height="0dp"
-        android:layout_weight="1"
-        android:padding="16dp" />
+        android:layout_height="250dp"
+        android:padding="8dp" />
 
     <TextView
         android:id="@+id/outdoor_name"
@@ -22,5 +22,15 @@
         android:textColor="@android:color/black"
         android:textStyle="bold"
         tools:text="Activity Name" />
+
+    <View style="@style/line_view" />
+
+    <TextView
+        android:id="@+id/outdoor_description"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:textAppearanceSmall"
+        android:textColor="@android:color/black"
+        tools:text="Description" />
 
 </LinearLayout>

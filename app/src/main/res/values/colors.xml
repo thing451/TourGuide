@@ -1,6 +1,20 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-    <color name="colorPrimary">#3F51B5</color>
-    <color name="colorPrimaryDark">#303F9F</color>
-    <color name="colorAccent">#FF4081</color>
+    <color name="colorPrimary">#4b636e</color>
+    <color name="colorPrimaryDark">#000000</color>
+    <color name="colorAccent">#673ab7</color>
+
+    <color name="color_hotelPrimary">#673ab7</color>
+    <color name="color_hotelPrimaryDark">#320b86</color>
+    <color name="color_hotelPrimaryLight">#9a67ea</color>
+    <color name="color_hotelSecondary">#d2d8db</color>
+    <color name="color_hotelSecondaryDark">#4b636e</color>
+    <color name="color_hotelSecondaryLight">#a7c0cd</color>
+
+    <color name="color_outdoorPrimary">#66bb6a</color>
+    <color name="color_outdoorPrimaryDark">#338a3e</color>
+    <color name="color_outdoorPrimaryLight">#98ee99</color>
+    <color name="color_outdoorSecondary">#827717</color>
+    <color name="color_outdoorSecondaryDark">#524c00</color>
+    <color name="color_outdoorSecondaryLight">#b4a647</color>
 </resources>

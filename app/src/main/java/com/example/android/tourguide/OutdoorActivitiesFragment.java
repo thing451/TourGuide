@@ -1,9 +1,9 @@
 package com.example.android.tourguide;
 
 
+import android.support.v4.app.Fragment;
 import android.content.res.TypedArray;
 import android.os.Bundle;
-import android.support.v4.app.Fragment;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
@@ -23,10 +23,12 @@ public class OutdoorActivitiesFragment extends Fragment {
 
         String[] name = getResources().getStringArray(R.array.outdoor_name);
         TypedArray image = getResources().obtainTypedArray(R.array.outdoor_images);
+        String[] description = getResources().getStringArray(R.array.outdoor_description);
 
         final ArrayList<OutdoorActivity> outdoorActivities = new ArrayList<>();
         for (int i = 0; i < name.length; i++) {
-            outdoorActivities.add(new OutdoorActivity(name[i], image.getResourceId(i,-1)));
+            outdoorActivities.add(new OutdoorActivity(name[i], image.getResourceId(i, -1),
+                    description[i]));
         }
 
         OutdoorAdapter adapter = new OutdoorAdapter(getActivity(), outdoorActivities);

@@ -16,7 +16,7 @@ public class CustomAdapter extends FragmentPagerAdapter {
 
     @Override
     public int getCount() {
-        return 6;
+        return 5;
     }
 
     @Override
@@ -25,14 +25,12 @@ public class CustomAdapter extends FragmentPagerAdapter {
             case 0:
                 return new HomeFragment();
             case 1:
-                return new EventsFragment();
-            case 2:
                 return new FoodandDrinkFragment();
-            case 3:
+            case 2:
                 return new ShoppingFragment();
-            case 4:
+            case 3:
                 return new OutdoorActivitiesFragment();
-            case 5:
+            case 4:
                 return new NightLifeFragment();
             default:
                 return new HomeFragment();
@@ -45,14 +43,12 @@ public class CustomAdapter extends FragmentPagerAdapter {
             case 0:
                 return mContext.getString(R.string.page_home);
             case 1:
-                return mContext.getString(R.string.page_events);
-            case 2:
                 return mContext.getString(R.string.page_food_and_drinks);
-            case 3:
+            case 2:
                 return mContext.getString(R.string.page_shopping);
-            case 4:
+            case 3:
                 return mContext.getString(R.string.page_outdoor_activities);
-            case 5:
+            case 4:
                 return mContext.getString(R.string.page_nightlife);
             default:
                 return mContext.getString(R.string.page_home);

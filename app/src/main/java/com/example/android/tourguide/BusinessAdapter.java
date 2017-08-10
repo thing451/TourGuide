@@ -30,6 +30,8 @@ public class BusinessAdapter extends ArrayAdapter<Business> {
             listItemView = LayoutInflater.from(getContext()).inflate(R.layout.business_list_item, parent, false);
         }
 
+        listItemView.findViewById(R.id.bar_three).setVisibility(View.GONE);
+
         final Business currentBusiness = getItem(position);
 
         ((ImageView) listItemView.findViewById(R.id.business_image))
@@ -42,6 +44,7 @@ public class BusinessAdapter extends ArrayAdapter<Business> {
         String noNumber = "NA";
         if (currentBusiness.getPhoneNumber().equalsIgnoreCase(noNumber)) {
             llPhoneNumber.setVisibility(View.GONE);
+            listItemView.findViewById(R.id.bar_one).setVisibility(View.GONE);
         } else {
             String phoneNumber = PhoneNumberUtils.formatNumber(currentBusiness.getPhoneNumber(),
                     Locale.getDefault().getCountry());
@@ -84,6 +87,16 @@ public class BusinessAdapter extends ArrayAdapter<Business> {
                 getContext().startActivity(intent);
             }
         });
+
+        TextView tvDescription = listItemView.findViewById(R.id.business_description);
+        String noDescription = "NA";
+        if (currentBusiness.getDescription() == null || currentBusiness.getDescription()
+                .equalsIgnoreCase(noDescription)) {
+            tvDescription.setVisibility(View.GONE);
+        } else {
+            listItemView.findViewById(R.id.bar_three).setVisibility(View.VISIBLE);
+            tvDescription.setText(currentBusiness.getDescription());
+        }
         return listItemView;
     }
 }
